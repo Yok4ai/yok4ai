@@ -19,13 +19,13 @@
 
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=FCC624)
 ![Kitty](https://img.shields.io/badge/Kitty-000000?style=for-the-badge&logo=gnome-terminal&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=darkgrey)
 ![Fish](https://img.shields.io/badge/Fish-000000?style=for-the-badge&logo=fish-shell&logoColor=white)
-![Tmux](https://img.shields.io/badge/Tmux-000000?style=for-the-badge&logo=tmux&logoColor=white)
+![Tmux](https://img.shields.io/badge/Tmux-000000?style=for-the-badge&logo=tmux&logoColor=paste)
 ![VSCode](https://img.shields.io/badge/VSCode-000000?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![NvChad](https://img.shields.io/badge/NvChad-000000?style=for-the-badge&logo=neovim&logoColor=green)
+![NvChad](https://img.shields.io/badge/NvChad-000000?style=for-the-badge&logo=neovim&logoColor=teal)
 
 </div>
 
