@@ -75,7 +75,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="60" height="60"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="60" height="60"/>
 <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="60" height="60"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/railway/railway-original.svg" alt="railway" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/pheralb/svgl/fbc8f6f1156a68f56a55fcf7ab1c59af51851b7f/static/library/railway.svg" alt="railway" width="60" height="60"/>
 <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="60" height="100"/>
 
 **AI/ML & LLM:**  
