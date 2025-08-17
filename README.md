@@ -113,7 +113,7 @@
 ## 🏆 GitHub Trophies
 <div align="center">
   
-[![trophy](https://github-profile-trophy.vercel.app/?username=yok4ai&theme=onedark&no-frame=false&no-bg=false&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=yok4ai&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
