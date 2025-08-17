@@ -45,8 +45,8 @@
 
 **Frontend:**  
 <br>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="60" height="60"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="60" height="60"/>
 <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="60" height="60"/>
 <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" alt="shadcn/ui" width="60" height="60"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="materialui" width="60" height="60"/>
@@ -56,9 +56,11 @@
 **Backend:**  
 <br>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="60" height="60"/>
+<img src="https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg" alt="express" width="60" height="60"/>
 <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="60" height="60"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="60" height="60"/>
+<img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon.svg" alt="flask" width="60" height="60"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="60" height="60"/>
+
 
 **Mobile:**  
 <br>
