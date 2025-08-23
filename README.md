@@ -116,14 +116,4 @@
   </tr>
 </table>
 
-
----
-
-## 🏆 GitHub Trophies
-<div align="center">
-  
-[![trophy](https://github-profile-trophy.vercel.app/?username=Yok4ai&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
 ---
