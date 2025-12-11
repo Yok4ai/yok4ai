@@ -63,9 +63,9 @@
   <tr>
     <td align="center"><strong>Backend</strong></td>
     <td>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="50" height="50"/>
+      <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="50" height="50"/> -->
       <img src="https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg" alt="Express.js" width="50" height="50"/>
-      <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="50" height="50"/>
+      <!-- <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="50" height="50"/> -->
       <img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon.svg" alt="Flask" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="50" height="50"/>
     </td>
@@ -79,21 +79,19 @@
   <tr>
     <td align="center"><strong>Databases</strong></td>
     <td>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="50" height="50"/>
+      <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="50" height="50"/> -->
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="50" height="50"/>
       <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="Supabase" width="50" height="50"/>
+      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/>
     </td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td align="center"><strong>Cloud & DevOps</strong></td>
     <td>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="50"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
-      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/pheralb/svgl/fbc8f6f1156a68f56a55fcf7ab1c59af51851b7f/static/library/railway.svg" alt="Railway" width="50" height="50"/>
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/>
     </td>
-  </tr>
+  </tr> -->
   <tr>
     <td align="center"><strong>AI/ML & LLM</strong></td>
     <td>
@@ -109,9 +107,11 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><strong>Tools & Design</strong></td>
+    <td align="center"><strong>Tools</strong></td>
     <td>
-      <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/>
+      <!-- <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/> -->
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
     </td>
   </tr>
 </table>
