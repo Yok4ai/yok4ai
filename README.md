@@ -6,7 +6,7 @@
 
 ## About Me
 
-### **AI Enthusiast** × **SWE** × **UX Designer**
+### **AI Enthusiast** × **SWE**
 
 ## 🔗 Find Me On
 
