@@ -57,7 +57,7 @@
       <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" alt="shadcn/ui" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="Material UI" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" alt="Three.js" width="50" height="50"/>
-      <img src="https://vectorwiki.com/images/sHLtN__headless-ui-icon.svg" alt="Headless UI" width="50" height="50"/>
+      <img src="https://avatars.githubusercontent.com/u/67109815?s=48&v=4" alt="Headless UI" width="50" height="50"/>
     </td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@
   <tr>
     <td align="center"><strong>Databases</strong></td>
     <td>
-      <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="50" height="50"/> -->
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="50" height="50"/>
       <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="Supabase" width="50" height="50"/>
       <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/>
@@ -109,7 +109,7 @@
   <tr>
     <td align="center"><strong>Tools</strong></td>
     <td>
-      <!-- <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/> -->
+      <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/>
       <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
     </td>
