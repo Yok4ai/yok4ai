@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 38" width="162" height="38" role="img" aria-label="portfolio">
+<defs>
+  <linearGradient id="lsweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff5c8a" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#ff5c8a" stop-opacity="0.3"/>
+    <stop offset="1" stop-color="#ff5c8a" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="lclip"><rect x="1" y="1" width="160" height="36"/></clipPath>
+</defs>
+<style>
+  .ls { animation: ls 5s cubic-bezier(.4,0,.6,1) 0s infinite; }
+  @keyframes ls { 0% { transform: translateX(-70px) } 45%, 100% { transform: translateX(232px) } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+</style>
+<rect x="1" y="1" width="160" height="36" fill="#ff2d6f" fill-opacity="0.05"/>
+<rect x="1" y="1" width="160" height="36" fill="none" stroke="#ff2d6f" stroke-opacity="0.25"/>
+<g clip-path="url(#lclip)"><rect class="ls" width="60" height="38" fill="url(#lsweep)"/></g>
+<path d="M1,10 V1 H10 M152,1 H161 V10 M161,28 V37 H152 M10,37 H1 V28" fill="none" stroke="#ff2d6f" stroke-width="2" stroke-opacity="0.95"/>
+<g transform="translate(23.95,11)"><g fill="none" stroke="#ff2d6f" stroke-width="1.3"><circle cx="8" cy="8" r="6.2"/><ellipse cx="8" cy="8" rx="2.7" ry="6.2"/><line x1="1.8" y1="8" x2="14.2" y2="8"/></g></g>
+<text x="48.95" y="23.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" letter-spacing="3" fill="#dbe4e9">PORTFOLIO</text>
+</svg>
