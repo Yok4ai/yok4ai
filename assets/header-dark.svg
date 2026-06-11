@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 64" width="880" height="64" role="img" aria-label="Imroz Eshan — generative ai, computer vision">
 <defs>
   <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff2d6f" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#ff2d6f" stop-opacity="0.9"/>
-    <stop offset="1" stop-color="#ff2d6f" stop-opacity="0"/>
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="sweepgrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff5c8a" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#ff5c8a" stop-opacity="0.9"/>
-    <stop offset="1" stop-color="#ff5c8a" stop-opacity="0"/>
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
   <filter id="hglow" x="-40%" y="-400%" width="180%" height="900%"><feGaussianBlur stdDeviation="2.6"/></filter>
   <clipPath id="rulespan"><rect x="200" y="11" width="480" height="10"/></clipPath>
@@ -21,8 +21,8 @@
 <rect x="200" y="15.2" width="480" height="1.8" fill="url(#rule)" filter="url(#hglow)"/>
 <rect x="200" y="15.4" width="480" height="1.2" fill="url(#rule)"/>
 <g clip-path="url(#rulespan)"><rect class="sweep" x="120" y="15" width="80" height="2" fill="url(#sweepgrad)"/></g>
-<rect x="437" y="13" width="6" height="6" transform="rotate(45 440 16)" fill="#ff2d6f"/>
-<text x="430" y="50" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" letter-spacing="4" fill="#8a98a0">GENERATIVE AI</text>
-<circle cx="440" cy="46" r="2" fill="#ff2d6f"/>
-<text x="454" y="50" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" letter-spacing="4" fill="#8a98a0">COMPUTER VISION</text>
+<rect x="437" y="13" width="6" height="6" transform="rotate(45 440 16)" fill="#ffffff"/>
+<text x="430" y="50" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" letter-spacing="4" fill="#8f8f8f">GENERATIVE AI</text>
+<circle cx="440" cy="46" r="2" fill="#ffffff"/>
+<text x="454" y="50" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" letter-spacing="4" fill="#8f8f8f">COMPUTER VISION</text>
 </svg>

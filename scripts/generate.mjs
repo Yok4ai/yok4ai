@@ -408,7 +408,7 @@ function renderStack(p) {
 // each theme: { dark, light, badge } — dark/light feed the <picture> pair,
 // badge is a single theme-proof palette that must read on both backgrounds
 
-const DEFAULT_THEME = "synthwave";
+const DEFAULT_THEME = "mono";
 
 const synthwaveDark = {
   skyTop: "#03080a",

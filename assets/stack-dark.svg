@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-label="Tech stack: languages: python, typescript, rust, bash; frontend: next.js, tailwind, three.js; backend / infra: node.js, fastapi, aws sqs, s3, docker, vercel, railway; ai / ml: pytorch, langchain, langraph, hugging face, ultralytics; databases: postgresql, supabase, mongodb; mobile: flutter; daily: linux, git, tmux">
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#03080a"/>
-    <stop offset="1" stop-color="#0c1417"/>
+    <stop offset="0" stop-color="#040404"/>
+    <stop offset="1" stop-color="#0f0f0f"/>
   </linearGradient>
   <linearGradient id="sungrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ff5c8a"/>
-    <stop offset="1" stop-color="#ff1744"/>
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#b9b9b9"/>
   </linearGradient>
   <linearGradient id="scangrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ff2d6f" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#ff2d6f" stop-opacity="1"/>
-    <stop offset="1" stop-color="#ff2d6f" stop-opacity="0"/>
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#ffffff" stop-opacity="1"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
   <filter id="bigglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
   <clipPath id="frame"><rect width="880" height="336" rx="14"/></clipPath>
@@ -27,8 +27,8 @@
   .gh { animation: gline 6s cubic-bezier(.55,0,1,.45) infinite; opacity: 0; }
   @keyframes gline {
     0% { transform: translateY(0); opacity: 0 }
-    12% { opacity: 0.6 }
-    100% { transform: translateY(40px); opacity: 0.35 }
+    12% { opacity: 0.5 }
+    100% { transform: translateY(40px); opacity: 0.28 }
   }
   .scan { animation: scan 9s linear infinite; }
   @keyframes scan { from { transform: translateY(-70px) } to { transform: translateY(336px) } }
@@ -38,139 +38,139 @@
 </style>
 <g clip-path="url(#frame)">
   <rect width="880" height="336" fill="url(#sky)"/>
-  <g fill="#d8e3e6"><circle class="star" cx="454.11" cy="77.1" r="0.6" style="animation-duration:5.67s;animation-delay:-2.83s"/><circle class="star" cx="420.35" cy="198.44" r="0.61" style="animation-duration:2.63s;animation-delay:-4.57s"/><circle class="star" cx="826.77" cy="48.3" r="0.91" style="animation-duration:5.21s;animation-delay:-5.31s"/><circle class="star" cx="402.14" cy="39.76" r="0.99" style="animation-duration:6.31s;animation-delay:-0.18s"/><circle class="star" cx="170.76" cy="8.5" r="1.23" style="animation-duration:5.13s;animation-delay:-5.72s"/><circle class="star" cx="334.61" cy="94.18" r="0.79" style="animation-duration:4.97s;animation-delay:-0.42s"/><circle class="star" cx="84.01" cy="108.51" r="0.91" style="animation-duration:5.44s;animation-delay:-3.55s"/><circle class="star" cx="874.05" cy="75.52" r="0.82" style="animation-duration:3.16s;animation-delay:-1.86s"/><circle class="star" cx="419.32" cy="106.53" r="0.64" style="animation-duration:3.23s;animation-delay:-1.28s"/><circle class="star" cx="756.24" cy="105.11" r="0.7" style="animation-duration:3.71s;animation-delay:-3.92s"/><circle class="star" cx="805.64" cy="172.09" r="0.94" style="animation-duration:3.5s;animation-delay:-0.72s"/><circle class="star" cx="342.22" cy="188.86" r="1.06" style="animation-duration:5.61s;animation-delay:-1.78s"/><circle class="star" cx="460.83" cy="147.25" r="0.71" style="animation-duration:6.26s;animation-delay:-1.98s"/><circle class="star" cx="484.72" cy="189.03" r="1.19" style="animation-duration:6.2s;animation-delay:-5.29s"/><circle class="star" cx="30.14" cy="126.85" r="0.53" style="animation-duration:4.39s;animation-delay:-1.84s"/><circle class="star" cx="263.04" cy="156.03" r="1.03" style="animation-duration:6.46s;animation-delay:-4.08s"/><circle class="star" cx="325.86" cy="221.28" r="1.15" style="animation-duration:4.11s;animation-delay:-0.82s"/><circle class="star" cx="316.69" cy="131.92" r="0.85" style="animation-duration:3.07s;animation-delay:-1.24s"/><circle class="star" cx="50.3" cy="162.23" r="0.81" style="animation-duration:5.52s;animation-delay:-4.29s"/><circle class="star" cx="153.98" cy="30.86" r="1.27" style="animation-duration:4.65s;animation-delay:-5.47s"/><circle class="star" cx="182.29" cy="79.08" r="0.96" style="animation-duration:4.81s;animation-delay:-1.41s"/><circle class="star" cx="879.23" cy="121.36" r="0.68" style="animation-duration:2.69s;animation-delay:-4.09s"/><circle class="star" cx="332.87" cy="93.37" r="1.21" style="animation-duration:3.74s;animation-delay:-1.47s"/><circle class="star" cx="555.07" cy="63.66" r="1.01" style="animation-duration:3.56s;animation-delay:-5.45s"/><circle class="star" cx="256.87" cy="32.44" r="1.25" style="animation-duration:3.93s;animation-delay:-2.36s"/></g>
-  <circle cx="780" cy="272" r="104" fill="#ff1744" opacity="0.1" filter="url(#bigglow)"/>
+  <g fill="#e6e6e6"><circle class="star" cx="454.11" cy="77.1" r="0.6" style="animation-duration:5.67s;animation-delay:-2.83s"/><circle class="star" cx="420.35" cy="198.44" r="0.61" style="animation-duration:2.63s;animation-delay:-4.57s"/><circle class="star" cx="826.77" cy="48.3" r="0.91" style="animation-duration:5.21s;animation-delay:-5.31s"/><circle class="star" cx="402.14" cy="39.76" r="0.99" style="animation-duration:6.31s;animation-delay:-0.18s"/><circle class="star" cx="170.76" cy="8.5" r="1.23" style="animation-duration:5.13s;animation-delay:-5.72s"/><circle class="star" cx="334.61" cy="94.18" r="0.79" style="animation-duration:4.97s;animation-delay:-0.42s"/><circle class="star" cx="84.01" cy="108.51" r="0.91" style="animation-duration:5.44s;animation-delay:-3.55s"/><circle class="star" cx="874.05" cy="75.52" r="0.82" style="animation-duration:3.16s;animation-delay:-1.86s"/><circle class="star" cx="419.32" cy="106.53" r="0.64" style="animation-duration:3.23s;animation-delay:-1.28s"/><circle class="star" cx="756.24" cy="105.11" r="0.7" style="animation-duration:3.71s;animation-delay:-3.92s"/><circle class="star" cx="805.64" cy="172.09" r="0.94" style="animation-duration:3.5s;animation-delay:-0.72s"/><circle class="star" cx="342.22" cy="188.86" r="1.06" style="animation-duration:5.61s;animation-delay:-1.78s"/><circle class="star" cx="460.83" cy="147.25" r="0.71" style="animation-duration:6.26s;animation-delay:-1.98s"/><circle class="star" cx="484.72" cy="189.03" r="1.19" style="animation-duration:6.2s;animation-delay:-5.29s"/><circle class="star" cx="30.14" cy="126.85" r="0.53" style="animation-duration:4.39s;animation-delay:-1.84s"/><circle class="star" cx="263.04" cy="156.03" r="1.03" style="animation-duration:6.46s;animation-delay:-4.08s"/><circle class="star" cx="325.86" cy="221.28" r="1.15" style="animation-duration:4.11s;animation-delay:-0.82s"/><circle class="star" cx="316.69" cy="131.92" r="0.85" style="animation-duration:3.07s;animation-delay:-1.24s"/><circle class="star" cx="50.3" cy="162.23" r="0.81" style="animation-duration:5.52s;animation-delay:-4.29s"/><circle class="star" cx="153.98" cy="30.86" r="1.27" style="animation-duration:4.65s;animation-delay:-5.47s"/><circle class="star" cx="182.29" cy="79.08" r="0.96" style="animation-duration:4.81s;animation-delay:-1.41s"/><circle class="star" cx="879.23" cy="121.36" r="0.68" style="animation-duration:2.69s;animation-delay:-4.09s"/><circle class="star" cx="332.87" cy="93.37" r="1.21" style="animation-duration:3.74s;animation-delay:-1.47s"/><circle class="star" cx="555.07" cy="63.66" r="1.01" style="animation-duration:3.56s;animation-delay:-5.45s"/><circle class="star" cx="256.87" cy="32.44" r="1.25" style="animation-duration:3.93s;animation-delay:-2.36s"/></g>
+  <circle cx="780" cy="272" r="104" fill="#b9b9b9" opacity="0.08" filter="url(#bigglow)"/>
   
   <mask id="stacksun"><circle cx="780" cy="296" r="92" fill="#fff"/><rect x="688" y="251.62" width="184" height="2" fill="#000"/><rect x="688" y="273.27" width="184" height="3.4" fill="#000"/><rect x="688" y="294.92" width="184" height="4.8" fill="#000"/><rect x="688" y="316.56" width="184" height="6.2" fill="#000"/><rect x="688" y="338.21" width="184" height="7.6" fill="#000"/><rect x="688" y="359.86" width="184" height="9" fill="#000"/></mask>
-  <circle cx="780" cy="296" r="92" fill="url(#sungrad)" mask="url(#stacksun)" opacity="0.62"/>
-  <rect y="296" width="880" height="40" fill="#05090b"/>
-  <g stroke="#ff2056" stroke-width="1" opacity="0.3"><line x1="356" y1="296" x2="-820" y2="336"/><line x1="363" y1="296" x2="-715" y2="336"/><line x1="370" y1="296" x2="-610" y2="336"/><line x1="377" y1="296" x2="-505" y2="336"/><line x1="384" y1="296" x2="-400" y2="336"/><line x1="391" y1="296" x2="-295" y2="336"/><line x1="398" y1="296" x2="-190" y2="336"/><line x1="405" y1="296" x2="-85" y2="336"/><line x1="412" y1="296" x2="20" y2="336"/><line x1="419" y1="296" x2="125" y2="336"/><line x1="426" y1="296" x2="230" y2="336"/><line x1="433" y1="296" x2="335" y2="336"/><line x1="440" y1="296" x2="440" y2="336"/><line x1="447" y1="296" x2="545" y2="336"/><line x1="454" y1="296" x2="650" y2="336"/><line x1="461" y1="296" x2="755" y2="336"/><line x1="468" y1="296" x2="860" y2="336"/><line x1="475" y1="296" x2="965" y2="336"/><line x1="482" y1="296" x2="1070" y2="336"/><line x1="489" y1="296" x2="1175" y2="336"/><line x1="496" y1="296" x2="1280" y2="336"/><line x1="503" y1="296" x2="1385" y2="336"/><line x1="510" y1="296" x2="1490" y2="336"/><line x1="517" y1="296" x2="1595" y2="336"/><line x1="524" y1="296" x2="1700" y2="336"/></g>
-  <g stroke="#ff2056" stroke-width="1.2"><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:0s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-1.2s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-2.4s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-3.6s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-4.8s"/></g>
-  <line x1="0" y1="296" x2="880" y2="296" stroke="#ff4d7a" stroke-width="1.4" opacity="0.8"/>
-  <text x="26" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="5" fill="#8a98a0">S T A C K</text>
-  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#8a98a0">26 TECHNOLOGIES</text>
+  <circle cx="780" cy="296" r="92" fill="url(#sungrad)" mask="url(#stacksun)" opacity="0.5"/>
+  <rect y="296" width="880" height="40" fill="#070707"/>
+  <g stroke="#d4d4d4" stroke-width="1" opacity="0.22"><line x1="356" y1="296" x2="-820" y2="336"/><line x1="363" y1="296" x2="-715" y2="336"/><line x1="370" y1="296" x2="-610" y2="336"/><line x1="377" y1="296" x2="-505" y2="336"/><line x1="384" y1="296" x2="-400" y2="336"/><line x1="391" y1="296" x2="-295" y2="336"/><line x1="398" y1="296" x2="-190" y2="336"/><line x1="405" y1="296" x2="-85" y2="336"/><line x1="412" y1="296" x2="20" y2="336"/><line x1="419" y1="296" x2="125" y2="336"/><line x1="426" y1="296" x2="230" y2="336"/><line x1="433" y1="296" x2="335" y2="336"/><line x1="440" y1="296" x2="440" y2="336"/><line x1="447" y1="296" x2="545" y2="336"/><line x1="454" y1="296" x2="650" y2="336"/><line x1="461" y1="296" x2="755" y2="336"/><line x1="468" y1="296" x2="860" y2="336"/><line x1="475" y1="296" x2="965" y2="336"/><line x1="482" y1="296" x2="1070" y2="336"/><line x1="489" y1="296" x2="1175" y2="336"/><line x1="496" y1="296" x2="1280" y2="336"/><line x1="503" y1="296" x2="1385" y2="336"/><line x1="510" y1="296" x2="1490" y2="336"/><line x1="517" y1="296" x2="1595" y2="336"/><line x1="524" y1="296" x2="1700" y2="336"/></g>
+  <g stroke="#d4d4d4" stroke-width="1.2"><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:0s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-1.2s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-2.4s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-3.6s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-4.8s"/></g>
+  <line x1="0" y1="296" x2="880" y2="296" stroke="#ffffff" stroke-width="1.4" opacity="0.8"/>
+  <text x="26" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="5" fill="#8f8f8f">S T A C K</text>
+  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#8f8f8f">26 TECHNOLOGIES</text>
   
-  <rect x="24" y="69" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="79" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">LANGUAGES</text>
+  <rect x="24" y="69" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="79" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">LANGUAGES</text>
   <g class="chip" style="animation-delay:0.1s">
-    <rect x="184" y="64" width="65.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="216.75" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">python</text>
+    <rect x="184" y="64" width="65.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="216.75" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">python</text>
   </g>
   <g class="chip" style="animation-delay:0.17s">
-    <rect x="259.5" y="64" width="94.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="306.75" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">typescript</text>
+    <rect x="259.5" y="64" width="94.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="306.75" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">typescript</text>
   </g>
   <g class="chip" style="animation-delay:0.24s">
-    <rect x="364" y="64" width="51" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="389.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">rust</text>
+    <rect x="364" y="64" width="51" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="389.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">rust</text>
   </g>
   <g class="chip" style="animation-delay:0.31s">
-    <rect x="425" y="64" width="51" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="450.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">bash</text>
+    <rect x="425" y="64" width="51" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="450.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">bash</text>
   </g>
-  <rect x="24" y="101" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="111" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">FRONTEND</text>
+  <rect x="24" y="101" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="111" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">FRONTEND</text>
   <g class="chip" style="animation-delay:0.38s">
-    <rect x="184" y="96" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="220.38" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">next.js</text>
+    <rect x="184" y="96" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="220.38" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">next.js</text>
   </g>
   <g class="chip" style="animation-delay:0.45s">
-    <rect x="266.75" y="96" width="80" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="306.75" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">tailwind</text>
+    <rect x="266.75" y="96" width="80" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="306.75" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">tailwind</text>
   </g>
   <g class="chip" style="animation-delay:0.52s">
-    <rect x="356.75" y="96" width="80" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="396.75" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">three.js</text>
+    <rect x="356.75" y="96" width="80" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="396.75" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">three.js</text>
   </g>
-  <rect x="24" y="133" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="143" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">BACKEND / INFRA</text>
+  <rect x="24" y="133" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="143" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">BACKEND / INFRA</text>
   <g class="chip" style="animation-delay:0.59s">
-    <rect x="184" y="128" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="220.38" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">node.js</text>
+    <rect x="184" y="128" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="220.38" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">node.js</text>
   </g>
   <g class="chip" style="animation-delay:0.66s">
-    <rect x="266.75" y="128" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="303.13" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">fastapi</text>
+    <rect x="266.75" y="128" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="303.13" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">fastapi</text>
   </g>
   <g class="chip" style="animation-delay:0.73s">
-    <rect x="349.5" y="128" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="385.88" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">aws sqs</text>
+    <rect x="349.5" y="128" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="385.88" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">aws sqs</text>
   </g>
   <g class="chip" style="animation-delay:0.8s">
-    <rect x="432.25" y="128" width="36.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="450.5" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">s3</text>
+    <rect x="432.25" y="128" width="36.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="450.5" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">s3</text>
   </g>
   <g class="chip" style="animation-delay:0.87s">
-    <rect x="478.75" y="128" width="65.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="511.5" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">docker</text>
+    <rect x="478.75" y="128" width="65.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="511.5" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">docker</text>
   </g>
   <g class="chip" style="animation-delay:0.94s">
-    <rect x="554.25" y="128" width="65.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="587" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">vercel</text>
+    <rect x="554.25" y="128" width="65.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="587" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">vercel</text>
   </g>
   <g class="chip" style="animation-delay:1.01s">
-    <rect x="629.75" y="128" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="666.13" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">railway</text>
+    <rect x="629.75" y="128" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="666.13" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">railway</text>
   </g>
-  <rect x="24" y="165" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="175" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">AI / ML</text>
+  <rect x="24" y="165" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="175" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">AI / ML</text>
   <g class="chip" style="animation-delay:1.08s">
-    <rect x="184" y="160" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="220.38" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">pytorch</text>
+    <rect x="184" y="160" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="220.38" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">pytorch</text>
   </g>
   <g class="chip" style="animation-delay:1.15s">
-    <rect x="266.75" y="160" width="87.25" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="310.38" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">langchain</text>
+    <rect x="266.75" y="160" width="87.25" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="310.38" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">langchain</text>
   </g>
   <g class="chip" style="animation-delay:1.22s">
-    <rect x="364" y="160" width="80" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="404" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">langraph</text>
+    <rect x="364" y="160" width="80" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="404" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">langraph</text>
   </g>
   <g class="chip" style="animation-delay:1.29s">
-    <rect x="454" y="160" width="109" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="508.5" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">hugging face</text>
+    <rect x="454" y="160" width="109" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="508.5" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">hugging face</text>
   </g>
   <g class="chip" style="animation-delay:1.36s">
-    <rect x="573" y="160" width="101.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="623.88" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">ultralytics</text>
+    <rect x="573" y="160" width="101.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="623.88" y="175" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">ultralytics</text>
   </g>
-  <rect x="24" y="197" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="207" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">DATABASES</text>
+  <rect x="24" y="197" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="207" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">DATABASES</text>
   <g class="chip" style="animation-delay:1.43s">
-    <rect x="184" y="192" width="94.5" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="231.25" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">postgresql</text>
+    <rect x="184" y="192" width="94.5" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="231.25" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">postgresql</text>
   </g>
   <g class="chip" style="animation-delay:1.5s">
-    <rect x="288.5" y="192" width="80" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="328.5" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">supabase</text>
+    <rect x="288.5" y="192" width="80" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="328.5" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">supabase</text>
   </g>
   <g class="chip" style="animation-delay:1.57s">
-    <rect x="378.5" y="192" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="414.88" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">mongodb</text>
+    <rect x="378.5" y="192" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="414.88" y="207" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">mongodb</text>
   </g>
-  <rect x="24" y="229" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="239" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">MOBILE</text>
+  <rect x="24" y="229" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="239" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">MOBILE</text>
   <g class="chip" style="animation-delay:1.64s">
-    <rect x="184" y="224" width="72.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="220.38" y="239" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">flutter</text>
+    <rect x="184" y="224" width="72.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="220.38" y="239" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">flutter</text>
   </g>
-  <rect x="24" y="261" width="3" height="12" rx="1.5" fill="#ff2d6f" opacity="0.85"/>
-  <text x="36" y="271" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ff2d6f">DAILY</text>
+  <rect x="24" y="261" width="3" height="12" rx="1.5" fill="#ffffff" opacity="0.85"/>
+  <text x="36" y="271" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#ffffff">DAILY</text>
   <g class="chip" style="animation-delay:1.71s">
-    <rect x="184" y="256" width="58.25" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="213.13" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">linux</text>
+    <rect x="184" y="256" width="58.25" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="213.13" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">linux</text>
   </g>
   <g class="chip" style="animation-delay:1.78s">
-    <rect x="252.25" y="256" width="43.75" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="274.13" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">git</text>
+    <rect x="252.25" y="256" width="43.75" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="274.13" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">git</text>
   </g>
   <g class="chip" style="animation-delay:1.85s">
-    <rect x="306" y="256" width="51" height="22" rx="6" fill="#ff2d6f" fill-opacity="0.07" stroke="#ff2d6f" stroke-opacity="0.45"/>
-    <text x="331.5" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#aab6bf">tmux</text>
+    <rect x="306" y="256" width="51" height="22" rx="6" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="331.5" y="271" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#bdbdbd">tmux</text>
   </g>
-  <text x="36" y="322" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#8a98a0">❯</text>
-  <rect class="cursor" x="52" y="311" width="7" height="13" fill="#ff2d6f"/>
-  <rect class="scan" width="880" height="60" fill="url(#scangrad)" opacity="0.045"/>
-  <rect width="880" height="336" rx="14" fill="none" stroke="#26121b" stroke-width="1"/>
+  <text x="36" y="322" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#8f8f8f">❯</text>
+  <rect class="cursor" x="52" y="311" width="7" height="13" fill="#ffffff"/>
+  <rect class="scan" width="880" height="60" fill="url(#scangrad)" opacity="0.04"/>
+  <rect width="880" height="336" rx="14" fill="none" stroke="#262626" stroke-width="1"/>
 </g>
 </svg>
