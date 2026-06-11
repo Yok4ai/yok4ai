@@ -247,8 +247,8 @@ function renderHeader(p) {
   <clipPath id="rulespan"><rect x="200" y="11" width="480" height="10"/></clipPath>
 </defs>
 <style>
-  .sweep { animation: sweep 6.5s cubic-bezier(.4,0,.6,1) infinite; }
-  @keyframes sweep { 0% { transform: translateX(0) } 100% { transform: translateX(640px) } }
+  .sweep { animation: sweep 6s cubic-bezier(.4,0,.6,1) infinite; }
+  @keyframes sweep { 0% { transform: translateX(0) } 45%, 100% { transform: translateX(640px) } }
   ${REDUCED}
 </style>
 <rect x="200" y="15.2" width="480" height="1.8" fill="url(#rule)" filter="url(#hglow)"/>
@@ -282,7 +282,7 @@ function renderLink(label, width, p, delay = 0, icon = null) {
   ${p.glow ? `<filter id="bglow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="1.7"/></filter>` : ""}
 </defs>
 <style>
-  .ls { animation: ls 5s cubic-bezier(.4,0,.6,1) ${delay}s infinite; }
+  .ls { animation: ls 6s cubic-bezier(.4,0,.6,1) ${delay}s infinite; }
   @keyframes ls { 0% { transform: translateX(-50px) } 45%, 100% { transform: translateX(${width + 50}px) } }
   ${REDUCED}
 </style>

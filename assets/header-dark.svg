@@ -14,8 +14,8 @@
   <clipPath id="rulespan"><rect x="200" y="11" width="480" height="10"/></clipPath>
 </defs>
 <style>
-  .sweep { animation: sweep 6.5s cubic-bezier(.4,0,.6,1) infinite; }
-  @keyframes sweep { 0% { transform: translateX(0) } 100% { transform: translateX(640px) } }
+  .sweep { animation: sweep 6s cubic-bezier(.4,0,.6,1) infinite; }
+  @keyframes sweep { 0% { transform: translateX(0) } 45%, 100% { transform: translateX(640px) } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
 </style>
 <rect x="200" y="15.2" width="480" height="1.8" fill="url(#rule)" filter="url(#hglow)"/>

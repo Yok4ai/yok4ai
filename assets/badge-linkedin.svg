@@ -9,7 +9,7 @@
   <filter id="bglow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="1.7"/></filter>
 </defs>
 <style>
-  .ls { animation: ls 5s cubic-bezier(.4,0,.6,1) 0.7s infinite; }
+  .ls { animation: ls 6s cubic-bezier(.4,0,.6,1) 0.7s infinite; }
   @keyframes ls { 0% { transform: translateX(-50px) } 45%, 100% { transform: translateX(160px) } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
 </style>
