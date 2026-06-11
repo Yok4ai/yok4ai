@@ -2,7 +2,9 @@
 // the last 52 weeks of GitHub contributions, plus matching header, link-pill
 // and stack-panel art. Pure SVG/CSS animation, no JS at render time.
 //
-// Usage: node scripts/generate.mjs [username]
+// Usage: node scripts/generate.mjs [username] [theme]
+// Themes live in the THEMES registry at the bottom; the default is set by
+// DEFAULT_THEME — edit it and push, the workflow re-renders everything.
 
 import { writeFileSync, mkdirSync } from "node:fs";
 
@@ -399,7 +401,13 @@ function renderStack(p) {
 </svg>`;
 }
 
-const dark = {
+// --- themes -------------------------------------------------------------
+// each theme: { dark, light, badge } — dark/light feed the <picture> pair,
+// badge is a single theme-proof palette that must read on both backgrounds
+
+const DEFAULT_THEME = "synthwave";
+
+const synthwaveDark = {
   skyTop: "#03080a",
   skyBottom: "#0c1417",
   floor: "#05090b",
@@ -427,7 +435,7 @@ const dark = {
   sweepOpacity: 0.35,
 };
 
-const light = {
+const synthwaveLight = {
   skyTop: "#fbfaf7",
   skyBottom: "#f6eef2",
   floor: "#f8f4f4",
@@ -455,16 +463,90 @@ const light = {
   sweepOpacity: 0.45,
 };
 
+const monoDark = {
+  skyTop: "#040404",
+  skyBottom: "#0f0f0f",
+  floor: "#070707",
+  star: "#e6e6e6",
+  grid: "#d4d4d4",
+  gridBright: "#ffffff",
+  gridOpacity: 0.22,
+  ghOpacity: 0.5,
+  ghOpacityEnd: 0.28,
+  ridge: "#ffffff",
+  farRidge: "#9a9a9a",
+  farOpacity: 0.35,
+  sunTop: "#ffffff",
+  sunBottom: "#b9b9b9",
+  sunOpacity: 0.85,
+  text: "#8f8f8f",
+  border: "#262626",
+  heading: "#ededed",
+  body: "#bdbdbd",
+  stackSunOpacity: 0.5,
+  sunHaloOpacity: 0.08,
+  scanOpacity: 0.04,
+  glowOpacity: 0.5,
+  horizonOpacity: 0.8,
+  sweepOpacity: 0.3,
+};
+
+const monoLight = {
+  skyTop: "#fcfcfc",
+  skyBottom: "#f1f1f1",
+  floor: "#f6f6f6",
+  star: "#9a9a9a",
+  grid: "#111111",
+  gridBright: "#444444",
+  gridOpacity: 0.12,
+  ghOpacity: 0.22,
+  ghOpacityEnd: 0.08,
+  ridge: "#111111",
+  farRidge: "#8a8a8a",
+  farOpacity: 0.35,
+  sunTop: "#555555",
+  sunBottom: "#111111",
+  sunOpacity: 0.5,
+  text: "#6e6e6e",
+  border: "#e4e4e4",
+  heading: "#1a1a1a",
+  body: "#3d3d3d",
+  stackSunOpacity: 0.35,
+  sunHaloOpacity: 0.04,
+  scanOpacity: 0.025,
+  glowOpacity: 0.2,
+  horizonOpacity: 0.5,
+  sweepOpacity: 0.35,
+};
+
+const THEMES = {
+  synthwave: {
+    dark: synthwaveDark,
+    light: synthwaveLight,
+    badge: { ridge: "#ff2d6f", sunTop: "#ff5c8a", heading: "#f02864", sweepOpacity: 0.4 },
+  },
+  mono: {
+    dark: monoDark,
+    light: monoLight,
+    badge: { ridge: "#787878", sunTop: "#a3a3a3", heading: "#6e6e6e", sweepOpacity: 0.35 },
+  },
+};
+
+// --- output ---------------------------------------------------------------
+
+const themeName = process.argv[3] ?? process.env.THEME ?? DEFAULT_THEME;
+const theme = THEMES[themeName];
+if (!theme) throw new Error(`unknown theme "${themeName}" — pick one of: ${Object.keys(THEMES).join(", ")}`);
+
 mkdirSync("assets", { recursive: true });
-for (const [mode, p] of [["dark", dark], ["light", light]]) {
+for (const [mode, p] of [["dark", theme.dark], ["light", theme.light]]) {
   writeFileSync(`assets/contrib-${mode}.svg`, render(p));
   writeFileSync(`assets/header-${mode}.svg`, renderHeader(p));
   writeFileSync(`assets/stack-${mode}.svg`, renderStack(p));
 }
 
-// badges are theme-proof (single file, mid-tone pink) — GitHub's <picture>
-// dark/light switching proved unreliable through the camo cache
-const badge = { ridge: "#ff2d6f", sunTop: "#ff5c8a", heading: "#f02864", sweepOpacity: 0.4 };
-writeFileSync("assets/badge-portfolio.svg", renderLink("PORTFOLIO", 118, badge, 0, "globe"));
-writeFileSync("assets/badge-linkedin.svg", renderLink("LINKEDIN", 110, badge, 0.7, "linkedin"));
-console.log(`rendered ${fmt(total)} contributions across ${weeks.length} weeks (peak week: ${maxWeek})`);
+// badges are single theme-proof files — GitHub's <picture> dark/light
+// switching proved unreliable through the camo cache
+writeFileSync("assets/badge-portfolio.svg", renderLink("PORTFOLIO", 118, theme.badge, 0, "globe"));
+writeFileSync("assets/badge-linkedin.svg", renderLink("LINKEDIN", 110, theme.badge, 0.7, "linkedin"));
+console.log(`rendered ${fmt(total)} contributions across ${weeks.length} weeks (peak week: ${maxWeek}) — theme: ${themeName}`);
