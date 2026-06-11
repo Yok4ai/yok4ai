@@ -444,7 +444,7 @@ for (const [mode, p] of [["dark", dark], ["light", light]]) {
   writeFileSync(`assets/contrib-${mode}.svg`, render(p));
   writeFileSync(`assets/header-${mode}.svg`, renderHeader(p));
   writeFileSync(`assets/stack-${mode}.svg`, renderStack(p));
-  writeFileSync(`assets/link-portfolio-${mode}.svg`, renderLink("PORTFOLIO", 118, p, "globe"));
-  writeFileSync(`assets/link-linkedin-${mode}.svg`, renderLink("LINKEDIN", 110, p, "linkedin"));
+  writeFileSync(`assets/badge-portfolio-${mode}.svg`, renderLink("PORTFOLIO", 118, p, "globe"));
+  writeFileSync(`assets/badge-linkedin-${mode}.svg`, renderLink("LINKEDIN", 110, p, "linkedin"));
 }
 console.log(`rendered ${fmt(total)} contributions across ${weeks.length} weeks (peak week: ${maxWeek})`);

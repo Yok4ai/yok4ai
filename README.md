@@ -17,13 +17,13 @@
 </picture>
 
 <a href="https://imrozeshan.vercel.app"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/link-portfolio-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/link-portfolio-light.svg">
-  <img src="assets/link-portfolio-dark.svg" alt="portfolio" height="26">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/badge-portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/badge-portfolio-light.svg">
+  <img src="assets/badge-portfolio-dark.svg" alt="portfolio" height="26">
 </picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/imroz-eshan/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/link-linkedin-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/link-linkedin-light.svg">
-  <img src="assets/link-linkedin-dark.svg" alt="linkedin" height="26">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/badge-linkedin-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/badge-linkedin-light.svg">
+  <img src="assets/badge-linkedin-dark.svg" alt="linkedin" height="26">
 </picture></a>
 
 <br>
