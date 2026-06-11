@@ -279,13 +279,20 @@ function renderLink(label, width, p, delay = 0, icon = null) {
     <stop offset="1" stop-color="${p.sunTop}" stop-opacity="0"/>
   </linearGradient>
   <clipPath id="lclip"><rect x="1" y="1" width="${width - 2}" height="${LH - 2}" rx="5"/></clipPath>
+  ${p.glow ? `<filter id="bglow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="1.7"/></filter>` : ""}
 </defs>
 <style>
   .ls { animation: ls 5s cubic-bezier(.4,0,.6,1) ${delay}s infinite; }
   @keyframes ls { 0% { transform: translateX(-50px) } 45%, 100% { transform: translateX(${width + 50}px) } }
   ${REDUCED}
 </style>
-<rect x="0.5" y="0.5" width="${width - 1}" height="${LH - 1}" rx="6" fill="${p.ridge}" fill-opacity="0.06" stroke="${p.ridge}" stroke-opacity="0.4"/>
+<rect x="0.5" y="0.5" width="${width - 1}" height="${LH - 1}" rx="6" fill="${p.ridge}" fill-opacity="0.06"/>
+${p.glow ? `<g filter="url(#bglow)" opacity="0.75">
+  <rect x="0.5" y="0.5" width="${width - 1}" height="${LH - 1}" rx="6" fill="none" stroke="${p.sunTop}"/>
+  <g transform="translate(${startX},7.5) scale(0.7)">${ICONS[icon](p.sunTop)}</g>
+  <text x="${r2(startX + 18)}" y="17" font-family="${MONO}" font-size="10" letter-spacing="2" fill="${p.sunTop}">${label}</text>
+</g>` : ""}
+<rect x="0.5" y="0.5" width="${width - 1}" height="${LH - 1}" rx="6" fill="none" stroke="${p.ridge}" stroke-opacity="${p.glow ? 0.85 : 0.4}"/>
 <g clip-path="url(#lclip)"><rect class="ls" width="40" height="${LH}" fill="url(#lsweep)"/></g>
 <g transform="translate(${startX},7.5) scale(0.7)">${ICONS[icon](p.ridge)}</g>
 <text x="${r2(startX + 18)}" y="17" font-family="${MONO}" font-size="10" letter-spacing="2" fill="${p.heading}">${label}</text>
@@ -531,7 +538,7 @@ const THEMES = {
   mono: {
     dark: monoDark,
     light: monoLight,
-    badge: { ridge: "#787878", sunTop: "#a3a3a3", heading: "#6e6e6e", sweepOpacity: 0.35 },
+    badge: { ridge: "#e0e0e0", sunTop: "#ffffff", heading: "#f2f2f2", sweepOpacity: 0.5, glow: true },
   },
 };
 
