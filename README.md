@@ -16,15 +16,7 @@
   <img src="assets/header-dark.svg" alt="generative ai • computer vision" width="100%">
 </picture>
 
-<a href="https://imrozeshan.vercel.app"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/badge-portfolio-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/badge-portfolio-light.svg">
-  <img src="assets/badge-portfolio-dark.svg" alt="portfolio" height="26">
-</picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/imroz-eshan/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/badge-linkedin-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/badge-linkedin-light.svg">
-  <img src="assets/badge-linkedin-dark.svg" alt="linkedin" height="26">
-</picture></a>
+<a href="https://imrozeshan.vercel.app"><img src="assets/badge-portfolio.svg" alt="portfolio" height="26"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/imroz-eshan/"><img src="assets/badge-linkedin.svg" alt="linkedin" height="26"></a>
 
 <br>
 <br>

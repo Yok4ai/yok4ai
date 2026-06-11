@@ -460,7 +460,11 @@ for (const [mode, p] of [["dark", dark], ["light", light]]) {
   writeFileSync(`assets/contrib-${mode}.svg`, render(p));
   writeFileSync(`assets/header-${mode}.svg`, renderHeader(p));
   writeFileSync(`assets/stack-${mode}.svg`, renderStack(p));
-  writeFileSync(`assets/badge-portfolio-${mode}.svg`, renderLink("PORTFOLIO", 118, p, 0, "globe"));
-  writeFileSync(`assets/badge-linkedin-${mode}.svg`, renderLink("LINKEDIN", 110, p, 0.7, "linkedin"));
 }
+
+// badges are theme-proof (single file, mid-tone pink) — GitHub's <picture>
+// dark/light switching proved unreliable through the camo cache
+const badge = { ridge: "#ff2d6f", sunTop: "#ff5c8a", heading: "#f02864", sweepOpacity: 0.4 };
+writeFileSync("assets/badge-portfolio.svg", renderLink("PORTFOLIO", 118, badge, 0, "globe"));
+writeFileSync("assets/badge-linkedin.svg", renderLink("LINKEDIN", 110, badge, 0.7, "linkedin"));
 console.log(`rendered ${fmt(total)} contributions across ${weeks.length} weeks (peak week: ${maxWeek})`);
