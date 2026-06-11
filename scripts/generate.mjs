@@ -225,7 +225,7 @@ function bandedSun(id, cx, cy, r, opacity) {
 }
 
 function renderHeader(p) {
-  const HH = 124;
+  const HH = 64;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${HH}" width="${W}" height="${HH}" role="img" aria-label="Imroz Eshan — generative ai, computer vision">
 <defs>
   <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
@@ -239,21 +239,20 @@ function renderHeader(p) {
     <stop offset="1" stop-color="${p.sunTop}" stop-opacity="0"/>
   </linearGradient>
   <filter id="hglow" x="-40%" y="-400%" width="180%" height="900%"><feGaussianBlur stdDeviation="2.6"/></filter>
-  <clipPath id="rulespan"><rect x="200" y="68" width="480" height="10"/></clipPath>
+  <clipPath id="rulespan"><rect x="200" y="11" width="480" height="10"/></clipPath>
 </defs>
 <style>
   .sweep { animation: sweep 6.5s cubic-bezier(.4,0,.6,1) infinite; }
   @keyframes sweep { 0% { transform: translateX(0) } 100% { transform: translateX(640px) } }
   ${REDUCED}
 </style>
-<text x="${W / 2 + 5}" y="50" text-anchor="middle" font-family="${MONO}" font-size="34" font-weight="700" letter-spacing="10" fill="${p.heading}">IMROZ ESHAN</text>
-<rect x="200" y="72.2" width="480" height="1.8" fill="url(#rule)" filter="url(#hglow)"/>
-<rect x="200" y="72.4" width="480" height="1.2" fill="url(#rule)"/>
-<g clip-path="url(#rulespan)"><rect class="sweep" x="120" y="72" width="80" height="2" fill="url(#sweepgrad)"/></g>
-<rect x="${W / 2 - 3}" y="70" width="6" height="6" transform="rotate(45 ${W / 2} 73)" fill="${p.ridge}"/>
-<text x="${W / 2 - 10}" y="104" text-anchor="end" font-family="${MONO}" font-size="11.5" letter-spacing="4" fill="${p.text}">GENERATIVE AI</text>
-<circle cx="${W / 2}" cy="100" r="2" fill="${p.ridge}"/>
-<text x="${W / 2 + 14}" y="104" text-anchor="start" font-family="${MONO}" font-size="11.5" letter-spacing="4" fill="${p.text}">COMPUTER VISION</text>
+<rect x="200" y="15.2" width="480" height="1.8" fill="url(#rule)" filter="url(#hglow)"/>
+<rect x="200" y="15.4" width="480" height="1.2" fill="url(#rule)"/>
+<g clip-path="url(#rulespan)"><rect class="sweep" x="120" y="15" width="80" height="2" fill="url(#sweepgrad)"/></g>
+<rect x="${W / 2 - 3}" y="13" width="6" height="6" transform="rotate(45 ${W / 2} 16)" fill="${p.ridge}"/>
+<text x="${W / 2 - 10}" y="50" text-anchor="end" font-family="${MONO}" font-size="11.5" letter-spacing="4" fill="${p.text}">GENERATIVE AI</text>
+<circle cx="${W / 2}" cy="46" r="2" fill="${p.ridge}"/>
+<text x="${W / 2 + 14}" y="50" text-anchor="start" font-family="${MONO}" font-size="11.5" letter-spacing="4" fill="${p.text}">COMPUTER VISION</text>
 </svg>`;
 }
 

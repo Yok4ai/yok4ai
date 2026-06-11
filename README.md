@@ -3,9 +3,17 @@
 <br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contrib-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contrib-light.svg">
+  <img src="assets/contrib-dark.svg" alt="My last 52 weeks of GitHub contributions rendered as an animated synthwave wireframe terrain" width="100%">
+</picture>
+
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-dark.svg" alt="Imroz Eshan — generative ai • computer vision" width="100%">
+  <img src="assets/header-dark.svg" alt="generative ai • computer vision" width="100%">
 </picture>
 
 <a href="https://imrozeshan.vercel.app"><picture>
@@ -17,17 +25,6 @@
   <source media="(prefers-color-scheme: light)" srcset="assets/link-linkedin-light.svg">
   <img src="assets/link-linkedin-dark.svg" alt="linkedin" height="38">
 </picture></a>
-
-<br>
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contrib-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/contrib-light.svg">
-  <img src="assets/contrib-dark.svg" alt="My last 52 weeks of GitHub contributions rendered as an animated synthwave wireframe terrain" width="100%">
-</picture>
-
-<sub>every peak is a week of commits — <a href="scripts/generate.mjs">re-rendered nightly</a> from my contribution graph</sub>
 
 <br>
 <br>
