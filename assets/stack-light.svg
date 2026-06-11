@@ -48,7 +48,7 @@
   <g stroke="#ff2056" stroke-width="1.2"><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:0s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-1.2s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-2.4s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-3.6s"/><line class="gh" x1="0" y1="296" x2="880" y2="296" style="animation-delay:-4.8s"/></g>
   <line x1="0" y1="296" x2="880" y2="296" stroke="#ff7da0" stroke-width="1.4" opacity="0.5"/>
   <text x="26" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="5" fill="#64748b">S T A C K</text>
-  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#64748b">26 TOOLS / 7 LAYERS</text>
+  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#64748b">26 TECHNOLOGIES</text>
   
   <rect x="24" y="69" width="3" height="12" rx="1.5" fill="#f01a62" opacity="0.85"/>
   <text x="36" y="79" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="2" fill="#f01a62">LANGUAGES</text>

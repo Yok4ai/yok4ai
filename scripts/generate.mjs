@@ -391,7 +391,7 @@ function renderStack(p) {
   <g stroke="${p.grid}" stroke-width="1.2">${horiz}</g>
   <line x1="0" y1="${SHZ}" x2="${W}" y2="${SHZ}" stroke="${p.gridBright}" stroke-width="1.4" opacity="${p.horizonOpacity}"/>
   <text x="26" y="38" font-family="${MONO}" font-size="13" letter-spacing="5" fill="${p.text}">S T A C K</text>
-  <text x="${W - 26}" y="38" text-anchor="end" font-family="${MONO}" font-size="12" letter-spacing="1" fill="${p.text}">${tools} TOOLS / ${STACK.length} LAYERS</text>
+  <text x="${W - 26}" y="38" text-anchor="end" font-family="${MONO}" font-size="12" letter-spacing="1" fill="${p.text}">${tools} TECHNOLOGIES</text>
   ${body}
   <text x="36" y="${SH - 14}" font-family="${MONO}" font-size="12.5" fill="${p.text}">❯</text>
   <rect class="cursor" x="52" y="${SH - 25}" width="7" height="13" fill="${p.ridge}"/>
