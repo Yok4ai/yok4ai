@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 26" width="118" height="26" role="img" aria-label="portfolio">
-<rect x="0.5" y="0.5" width="117" height="25" rx="6" fill="#ff2d6f" fill-opacity="0.06" stroke="#ff2d6f" stroke-opacity="0.4"/>
-<g transform="translate(14,7.5) scale(0.7)"><g fill="none" stroke="#ff2d6f" stroke-width="1.3"><circle cx="8" cy="8" r="6.2"/><ellipse cx="8" cy="8" rx="2.7" ry="6.2"/><line x1="1.8" y1="8" x2="14.2" y2="8"/></g></g>
+<rect x="0.5" y="0.5" width="117" height="25" rx="6" fill="#f01a62" fill-opacity="0.06" stroke="#f01a62" stroke-opacity="0.4"/>
+<g transform="translate(14,7.5) scale(0.7)"><g fill="none" stroke="#f01a62" stroke-width="1.3"><circle cx="8" cy="8" r="6.2"/><ellipse cx="8" cy="8" rx="2.7" ry="6.2"/><line x1="1.8" y1="8" x2="14.2" y2="8"/></g></g>
 <text x="32" y="17" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing="2" fill="#334155">PORTFOLIO</text>
 </svg>

@@ -112,7 +112,7 @@ function floorGrid(palette) {
   return `
   <g stroke="${palette.grid}" stroke-width="1" opacity="${palette.gridOpacity}">${verts}</g>
   <g stroke="${palette.grid}" stroke-width="1.2">${horiz}</g>
-  <line x1="0" y1="${HORIZON}" x2="${W}" y2="${HORIZON}" stroke="${palette.gridBright}" stroke-width="1.4" opacity="0.8"/>`;
+  <line x1="0" y1="${HORIZON}" x2="${W}" y2="${HORIZON}" stroke="${palette.gridBright}" stroke-width="1.4" opacity="${palette.horizonOpacity}"/>`;
 }
 
 function sun(palette) {
@@ -183,7 +183,7 @@ function render(palette) {
   </g>
   <g class="nearscroll">
     <path d="${near.fill}" fill="url(#ridgefill)" stroke="none"/>
-    <path d="${near.line}" fill="none" stroke="${palette.ridge}" stroke-width="2.4" filter="url(#glow)" opacity="0.65"/>
+    <path d="${near.line}" fill="none" stroke="${palette.ridge}" stroke-width="2.4" filter="url(#glow)" opacity="${palette.glowOpacity}"/>
     <path d="${near.line}" fill="none" stroke="${palette.ridge}" stroke-width="1.5"/>
     <g stroke="${palette.ridge}" stroke-width="0.6" opacity="0.3">${near.verts}</g>
   </g>
@@ -373,7 +373,7 @@ function renderStack(p) {
   <rect y="${SHZ}" width="${W}" height="${SH - SHZ}" fill="${p.floor}"/>
   <g stroke="${p.grid}" stroke-width="1" opacity="${p.gridOpacity}">${verts}</g>
   <g stroke="${p.grid}" stroke-width="1.2">${horiz}</g>
-  <line x1="0" y1="${SHZ}" x2="${W}" y2="${SHZ}" stroke="${p.gridBright}" stroke-width="1.4" opacity="0.8"/>
+  <line x1="0" y1="${SHZ}" x2="${W}" y2="${SHZ}" stroke="${p.gridBright}" stroke-width="1.4" opacity="${p.horizonOpacity}"/>
   <text x="26" y="38" font-family="${MONO}" font-size="13" letter-spacing="5" fill="${p.text}">S T A C K</text>
   <text x="${W - 26}" y="38" text-anchor="end" font-family="${MONO}" font-size="12" letter-spacing="1" fill="${p.text}">${tools} TOOLS / ${STACK.length} LAYERS</text>
   ${body}
@@ -408,6 +408,8 @@ const dark = {
   stackSunOpacity: 0.62,
   sunHaloOpacity: 0.1,
   scanOpacity: 0.045,
+  glowOpacity: 0.65,
+  horizonOpacity: 0.8,
 };
 
 const light = {
@@ -416,13 +418,13 @@ const light = {
   floor: "#f8f4f4",
   star: "#94a3b8",
   grid: "#ff2056",
-  gridBright: "#ff4d7a",
-  gridOpacity: 0.2,
-  ghOpacity: 0.45,
-  ghOpacityEnd: 0.25,
-  ridge: "#ff2d6f",
-  farRidge: "#ff6e8e",
-  farOpacity: 0.45,
+  gridBright: "#ff7da0",
+  gridOpacity: 0.12,
+  ghOpacity: 0.25,
+  ghOpacityEnd: 0.1,
+  ridge: "#f01a62",
+  farRidge: "#ff8aa8",
+  farOpacity: 0.35,
   sunTop: "#ff5c8a",
   sunBottom: "#ff1744",
   sunOpacity: 0.6,
@@ -431,8 +433,10 @@ const light = {
   heading: "#334155",
   body: "#52606d",
   stackSunOpacity: 0.4,
-  sunHaloOpacity: 0.07,
-  scanOpacity: 0.035,
+  sunHaloOpacity: 0.05,
+  scanOpacity: 0.025,
+  glowOpacity: 0.25,
+  horizonOpacity: 0.5,
 };
 
 mkdirSync("assets", { recursive: true });
