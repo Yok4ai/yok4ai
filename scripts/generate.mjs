@@ -262,39 +262,14 @@ const ICONS = {
   linkedin: (c) => `<path fill="${c}" transform="scale(0.667)" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>`,
 };
 
-function renderLink(label, width, p, delay = 0, icon = null) {
-  const LH = 38;
-  const arm = 9;
-  const corners = [
-    `M1,${1 + arm} V1 H${1 + arm}`,
-    `M${width - 1 - arm},1 H${width - 1} V${1 + arm}`,
-    `M${width - 1},${LH - 1 - arm} V${LH - 1} H${width - 1 - arm}`,
-    `M${1 + arm},${LH - 1} H1 V${LH - 1 - arm}`,
-  ].join(" ");
+function renderLink(label, width, p, icon = null) {
+  const LH = 26;
+  const textW = label.length * 8; // mono ~6px/char at 10 + 2 letter-spacing
+  const startX = r2((width - (11 + 7 + textW)) / 2);
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${LH}" width="${width}" height="${LH}" role="img" aria-label="${label.toLowerCase()}">
-<defs>
-  <linearGradient id="lsweep" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="${p.sunTop}" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="${p.sunTop}" stop-opacity="0.3"/>
-    <stop offset="1" stop-color="${p.sunTop}" stop-opacity="0"/>
-  </linearGradient>
-  <clipPath id="lclip"><rect x="1" y="1" width="${width - 2}" height="${LH - 2}"/></clipPath>
-</defs>
-<style>
-  .ls { animation: ls 5s cubic-bezier(.4,0,.6,1) ${delay}s infinite; }
-  @keyframes ls { 0% { transform: translateX(-70px) } 45%, 100% { transform: translateX(${width + 70}px) } }
-  ${REDUCED}
-</style>
-<rect x="1" y="1" width="${width - 2}" height="${LH - 2}" fill="${p.ridge}" fill-opacity="0.05"/>
-<rect x="1" y="1" width="${width - 2}" height="${LH - 2}" fill="none" stroke="${p.ridge}" stroke-opacity="0.25"/>
-<g clip-path="url(#lclip)"><rect class="ls" width="60" height="${LH}" fill="url(#lsweep)"/></g>
-<path d="${corners}" fill="none" stroke="${p.ridge}" stroke-width="2" stroke-opacity="0.95"/>
-${icon ? (() => {
-    const textW = label.length * 9.9; // mono ~6.9px/char at 11.5 + 3 letter-spacing
-    const startX = r2((width - (16 + 9 + textW)) / 2);
-    return `<g transform="translate(${startX},11)">${ICONS[icon](p.ridge)}</g>
-<text x="${r2(startX + 25)}" y="23.5" font-family="${MONO}" font-size="11.5" letter-spacing="3" fill="${p.heading}">${label}</text>`;
-  })() : `<text x="${width / 2}" y="23.5" text-anchor="middle" font-family="${MONO}" font-size="11.5" letter-spacing="3" fill="${p.heading}">${label}</text>`}
+<rect x="0.5" y="0.5" width="${width - 1}" height="${LH - 1}" rx="6" fill="${p.ridge}" fill-opacity="0.06" stroke="${p.ridge}" stroke-opacity="0.4"/>
+<g transform="translate(${startX},7.5) scale(0.7)">${ICONS[icon](p.ridge)}</g>
+<text x="${r2(startX + 18)}" y="17" font-family="${MONO}" font-size="10" letter-spacing="2" fill="${p.heading}">${label}</text>
 </svg>`;
 }
 
@@ -465,7 +440,7 @@ for (const [mode, p] of [["dark", dark], ["light", light]]) {
   writeFileSync(`assets/contrib-${mode}.svg`, render(p));
   writeFileSync(`assets/header-${mode}.svg`, renderHeader(p));
   writeFileSync(`assets/stack-${mode}.svg`, renderStack(p));
-  writeFileSync(`assets/link-portfolio-${mode}.svg`, renderLink("PORTFOLIO", 162, p, 0, "globe"));
-  writeFileSync(`assets/link-linkedin-${mode}.svg`, renderLink("LINKEDIN", 152, p, 0.7, "linkedin"));
+  writeFileSync(`assets/link-portfolio-${mode}.svg`, renderLink("PORTFOLIO", 118, p, "globe"));
+  writeFileSync(`assets/link-linkedin-${mode}.svg`, renderLink("LINKEDIN", 110, p, "linkedin"));
 }
 console.log(`rendered ${fmt(total)} contributions across ${weeks.length} weeks (peak week: ${maxWeek})`);
