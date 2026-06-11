@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-label="Wireframe terrain generated from Yok4ai's GitHub contributions: 1,548 in the last 52 weeks">
-<title>1,548 contributions, rendered as terrain</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-label="Wireframe terrain generated from Yok4ai's GitHub contributions: 1,635 in the last year">
+<title>1,635 contributions, rendered as terrain</title>
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#03080a"/>
@@ -63,7 +63,7 @@
   <g stroke="#ff2056" stroke-width="1.2"><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:0s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-0.75s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-1.5s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-2.25s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-3s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-3.75s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-4.5s"/><line class="gh" x1="0" y1="200" x2="880" y2="200" style="animation-delay:-5.25s"/></g>
   <line x1="0" y1="200" x2="880" y2="200" stroke="#ff4d7a" stroke-width="1.4" opacity="0.8"/>
   <text x="26" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="5" fill="#8a98a0">YOK4AI</text>
-  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#8a98a0">1,548 CONTRIBUTIONS / 52 WEEKS</text>
+  <text x="854" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="#8a98a0">1,635 CONTRIBUTIONS / LAST YEAR</text>
   <rect width="880" height="320" rx="14" fill="none" stroke="#26121b" stroke-width="1"/>
 </g>
 </svg>

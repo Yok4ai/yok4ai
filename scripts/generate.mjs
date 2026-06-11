@@ -35,6 +35,9 @@ for (let i = 0; i < days.length; i += 7) {
 while (weeks.length < WEEKS) weeks.unshift(0);
 
 const total = days.reduce((s, d) => s + d.count, 0);
+// GitHub's profile shows a rolling 365-day total; our 364-day draw window
+// undercounts it, so display the API's own last-year figure instead
+const lastYear = data.total?.lastYear ?? total;
 const maxWeek = Math.max(1, ...weeks);
 
 // --- helpers ----------------------------------------------------------
@@ -135,8 +138,8 @@ function sun(palette) {
 // --- svg --------------------------------------------------------------
 
 function render(palette) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Wireframe terrain generated from ${USER}'s GitHub contributions: ${fmt(total)} in the last 52 weeks">
-<title>${fmt(total)} contributions, rendered as terrain</title>
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Wireframe terrain generated from ${USER}'s GitHub contributions: ${fmt(lastYear)} in the last year">
+<title>${fmt(lastYear)} contributions, rendered as terrain</title>
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="${palette.skyTop}"/>
@@ -192,7 +195,7 @@ function render(palette) {
   <rect y="${HORIZON}" width="${W}" height="${H - HORIZON}" fill="${palette.floor}"/>
   ${floorGrid(palette)}
   <text x="26" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="5" fill="${palette.text}">${USER.toUpperCase()}</text>
-  <text x="${W - 26}" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="${palette.text}">${fmt(total)} CONTRIBUTIONS / 52 WEEKS</text>
+  <text x="${W - 26}" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1" fill="${palette.text}">${fmt(lastYear)} CONTRIBUTIONS / LAST YEAR</text>
   <rect width="${W}" height="${H}" rx="14" fill="none" stroke="${palette.border}" stroke-width="1"/>
 </g>
 </svg>`;
